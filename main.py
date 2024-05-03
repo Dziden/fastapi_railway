@@ -115,4 +115,4 @@ from gradio_client import Client
     print(result)
     result= client.predict(fn_index=41)
     
-    return {"greeting": "Hello, World!", "message": "Welcome to FastAPI!"}
+    return {"greeting": "Hello, World!", "message": "Welcome to FastAPI 222!"}
