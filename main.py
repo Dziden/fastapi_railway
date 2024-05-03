@@ -4,9 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    
-    !pip install gradio_client
-    
+     
     from gradio_client import Client
     
     client = Client("http://dziden.pro-manage.net:7865/")
