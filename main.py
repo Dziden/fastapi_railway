@@ -115,5 +115,6 @@ async def root():
     )
     print(result)
     result= client.predict(fn_index=41)
+    print(result)
 
-    return {"greeting": "Hello, World!", "message": "Welcome to FastAPI!"}
+    return {"greeting": "info", "message": "code ended"}
